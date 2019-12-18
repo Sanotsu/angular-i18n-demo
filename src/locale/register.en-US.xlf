@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7d6573fb998f3a1cf1356623b85850d9d10edaa9" datatype="html">
+        <source>Registration</source>
+        <target>Registration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html">
+        <source>First Name</source>
+        <target>First Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html">
+        <source>Last Name</source>
+        <target>Last Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="729754dd19eb9ce0670b0aeb5a6ae60574c2c563" datatype="html">
+        <source>Address</source>
+        <target>Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1b7e6d75ff4285c7636c67e5ef259629b81725b" datatype="html">
+        <source>Confirm Password</source>
+        <target>Confirm Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87991473d36920c248f4746d934e7b519806560e" datatype="html">
+        <source>REGISTER</source>
+        <target>REGISTER</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

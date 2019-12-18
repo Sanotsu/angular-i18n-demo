@@ -1,0 +1,53 @@
+<mat-form-field style="width:100px;font-size:14px">
+  <mat-select disabled="true" [value]="language" (selectionChange)="langSelect($event)">
+    <mat-option value="zh-Hant">中文(繁体)</mat-option>
+    <mat-option value="zh-Hans">中文(简体)</mat-option>
+    <mat-option value="en-US">English</mat-option>
+    <mat-option value="ja-JP">日本語</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div class='my-div'>
+  <mat-toolbar>
+    <mat-icon>create</mat-icon>&nbsp;&nbsp;
+    <ng-container i18n>Registration</ng-container>
+  </mat-toolbar>
+  <mat-card>
+    <mat-card-content>
+      <form>
+        <div class="word-align" i18n>First Name</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="First name" name="fname" required>
+        </mat-form-field>
+        <br />
+        <div class="word-align" i18n>Last Name</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="Last Name" name="lname" required>
+        </mat-form-field>
+        <br />
+        <div class="word-align" i18n>Address</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="Address" name="address" required>
+        </mat-form-field>
+        <br />
+        <div class="word-align" i18n>Email</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="Email" name="email">
+        </mat-form-field>
+        <br />
+        <div class="word-align" i18n>Password</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="Password" name="password">
+        </mat-form-field>
+        <br />
+        <div class="word-align" i18n>Confirm Password</div> &nbsp;&nbsp;&nbsp;
+        <mat-form-field>
+          <input matInput i18n-placeholder="Confirm Password" name="confirmPassword">
+        </mat-form-field>
+        <br />
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button (click)="register()" color="primary" i18n>REGISTER</button>
+    </mat-card-actions>
+  </mat-card>

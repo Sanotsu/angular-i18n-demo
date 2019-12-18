@@ -1,27 +1,13 @@
 # AngularI18nDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+这是一个 angular i18n 的示例项目。
 
-## Development server
+## 使用测试
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- 运行`npm run zh-Hans`,浏览器打开显示中文简体的注册页面；
+- 运行`npm run zh-Han`,浏览器打开显示中文繁体的注册页面；
+- 运行`npm run en-US`,浏览器打开显示英语的注册页面；
+- 运行`npm run ja-JP`,浏览器打开显示日语(百度翻译所得)的注册页面；
+- 运行`npm build`,在 dist 得到 4 份不同语言的编译后文件夹；
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`ng serve`默认显示英语的注册页面。
